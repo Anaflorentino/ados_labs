@@ -979,12 +979,12 @@ body {
   }
 }
 
-.service-1 {
+.service_1 {
   margin-top: 0.6rem;
   align-items: center;
 }
 
-.service-1, .service-2 {
+.service_1, .service_2 {
   margin-bottom: 0.6rem;
   align-items: center;
 }
@@ -1008,15 +1008,15 @@ body {
   border-bottom: 1px solid #646464;
 }
 
-.service-1 > input:nth-child(1) {
+.service_1 > input:nth-child(1) {
   margin-right: 4px;
 }
 
-.service-2 > input:nth-child(1) {
+.service_2 > input:nth-child(1) {
   margin-right: 4px;
 }
 
-.service-3 > input:nth-child(1) {
+.service_3 > input:nth-child(1) {
   margin-right: 4px;
 }
 
@@ -1192,9 +1192,10 @@ footer h4 {
   .services__container .services__content .services__left .services__item .content .plan {
     flex-direction: column;
     align-self: flex-start;
+    gap: 0;
   }
-  .services__container {
-    padding: 0;
+  .services__container .services__content .services__left .services__item .content {
+    gap: 0;
   }
 }
 @media (max-width: 768px) {
@@ -1210,6 +1211,9 @@ footer h4 {
     width: 100%;
   }
   .services__container .services__content .services__left .services__item .content .plan {
+    gap: 0.75rem;
+  }
+  .services__container .services__content .services__left .services__item .content .plan {
     flex-direction: row;
     align-self: flex-start;
   }
@@ -1220,7 +1224,7 @@ footer h4 {
     display: none;
   }
   .services__container .services__content .services__left .services__item {
-    height: 40vh;
+    height: 48vh;
   }
 }
 .plans {

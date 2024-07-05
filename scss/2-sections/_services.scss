@@ -82,7 +82,7 @@
             flex-direction: column;
 
             .services__item {
-                height: 62vh; // TIRAR DEPOIS
+                height: 62vh;
                 width: 100%;
                 display: flex;
                 gap: 1.5rem;
@@ -188,11 +188,12 @@
     .services__container .services__content .services__left .services__item .content .plan {
         flex-direction: column; 
         align-self: flex-start;
+        gap: 0;
     }
 
-    .services__container {
-        padding: 0;
-    }
+    .services__container .services__content .services__left .services__item .content {
+        gap: 0;
+}
 }
 
 @media (max-width: 768px) {
@@ -211,6 +212,10 @@
     }
 
     .services__container .services__content .services__left .services__item .content .plan {
+        gap: .75rem;
+        }
+
+    .services__container .services__content .services__left .services__item .content .plan {
         flex-direction: row; 
         align-self: flex-start;
     }
@@ -224,6 +229,6 @@
     }
 
     .services__container .services__content .services__left .services__item {
-        height: 40vh;
+        height: 48vh;
         }
 }
