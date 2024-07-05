@@ -28,8 +28,7 @@ AdosLabs offers a range of professional animation services to bring your ideas t
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **SCSS**
-- **GSAP**
+- **SASS/SCSS**
 
 ## Installation
 
