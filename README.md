@@ -8,8 +8,8 @@ Welcome to the official landing page of AdosLabs!
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
 4. [Installation](#installation)
-5. [Contributing] (#contributing)
-6. [Guidelines] (#guidelines)
+5. [Contributing](#contributing)
+6. [Guidelines](#guidelines)
 
 ## Description
 
